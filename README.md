@@ -12,6 +12,7 @@ Pre-built packages are available at: [https://greensec.github.io/nsd-debian/](ht
 - buster (10)
 - bullseye (11)
 - bookworm (12)
+- trixie (13)
 
 ### Ubuntu
 - jammy (22.04 LTS)
