@@ -17,4 +17,4 @@ jobs:
       env:
         GH_TOKEN: ${{ github.token }}
       run: |
-        gh workflow run .github/workflows/build.yml --ref ${{ steps.check.outputs.remote_current_release }} -F nsd_tag=${{ steps.check.outputs.remote_current_tag }}
+        gh workflow run .github/workflows/build.yml --ref main -F nsd_tag=${{ steps.check.outputs.remote_current_tag }}
