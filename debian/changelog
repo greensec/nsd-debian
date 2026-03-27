@@ -1,3 +1,12 @@
+nsd (4.12.0-2) unstable; urgency=medium
+
+  * Drop legacy dbdir patch from debian/patches.
+  * Set --with-dbdir=/var/lib/nsd in debian/rules instead.
+  * Align dbdir handling with Debian forky packaging to avoid patch
+    breakage on upstream configure.ac changes.
+
+ -- Markus Schade <markus.schade@gmail.com>  Fri, 27 Mar 2026 23:02:00 +0100
+
 nsd (4.12.0-1) unstable; urgency=medium
 
   * New upstream version 4.12.0
