@@ -21,6 +21,7 @@ override_dh_auto_configure:
 	       --with-nsd_conf_file=/etc/nsd/nsd.conf	\
 	       --with-pidfile=/run/nsd/nsd.pid		\
 	       --with-dbfile=/var/lib/nsd/nsd.db	\
+	       --with-dbdir=/var/lib/nsd		\
 	       --with-zonesdir=/etc/nsd			\
 	       --with-xfrdfile=/var/lib/nsd/xfrd.state	\
 	       --disable-largefile			\
