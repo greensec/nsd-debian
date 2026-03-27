@@ -9,14 +9,16 @@ Signed-off-by: Pierre Habouzit <madcoder@debian.org>
  configure.ac | 2 +-
  1 file changed, 1 insertion(+), 1 deletion(-)
 
+diff --git a/configure.ac b/configure.ac
+index e3c1906..a78e38f 100644
 --- a/configure.ac
 +++ b/configure.ac
-@@ -81,7 +81,7 @@
+@@ -81,7 +81,7 @@ AC_SUBST(logfile)
  #
  # Database directory
  #
 -dbdir=${localstatedir}/db/nsd
 +dbdir=${localstatedir}/lib/nsd
- 
- #
- # Determine the pidfile location. Check if /var/run exists, if so set pidfile
+ AC_ARG_WITH([dbdir],
+ 	AS_HELP_STRING([--with-dbdir=dir],[Base directory for the xfrd zone timer state file, the zone list file and the cookie secrets file]),
+ 	[dbdir=$withval])
