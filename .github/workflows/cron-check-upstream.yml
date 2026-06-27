@@ -4,13 +4,23 @@ on:
     - cron: '0 16 * * *'
   workflow_dispatch:
 
+permissions:
+  contents: read
+  actions: write
+
 jobs:
   check_upstream:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v7
+    - name: Determine check distribution
+      id: distro
+      run: |
+        set -eu
+        first_debian=$(grep -E '^debian:' .github/supported-releases.txt | head -n 1 | cut -d: -f2)
+        echo "distro=${first_debian:-bookworm}" >> "$GITHUB_OUTPUT"
     - id: check
-      run: ./check_latest_version.sh 'NLnetLabs/nsd' 'bookworm' 'nsd'
+      run: ./check_latest_version.sh 'NLnetLabs/nsd' '${{ steps.distro.outputs.distro }}' 'nsd'
       shell: bash
     - name: Commit report
       if: steps.check.outputs.vercomp == 'newer'
