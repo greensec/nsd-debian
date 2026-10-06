@@ -4,13 +4,11 @@ Architectures: amd64 arm64
 Components: main
 SignWith: 90CFF651DA319967E1C122504A7684F14D068ECD
 
-
 Description: greensec/nsd-debian
 Codename: bullseye
 Architectures: amd64 arm64
 Components: main
 SignWith: 90CFF651DA319967E1C122504A7684F14D068ECD
-
 
 Description: greensec/nsd-debian
 Codename: bookworm
@@ -18,13 +16,11 @@ Architectures: amd64 arm64
 Components: main
 SignWith: 90CFF651DA319967E1C122504A7684F14D068ECD
 
-
 Description: greensec/nsd-debian
-Codename: noble
+Codename: trixie
 Architectures: amd64 arm64
 Components: main
 SignWith: 90CFF651DA319967E1C122504A7684F14D068ECD
-
 
 Description: greensec/nsd-debian
 Codename: jammy
@@ -32,4 +28,9 @@ Architectures: amd64 arm64
 Components: main
 SignWith: 90CFF651DA319967E1C122504A7684F14D068ECD
 
+Description: greensec/nsd-debian
+Codename: noble
+Architectures: amd64 arm64
+Components: main
+SignWith: 90CFF651DA319967E1C122504A7684F14D068ECD
 

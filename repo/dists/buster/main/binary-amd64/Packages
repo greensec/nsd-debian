@@ -1,18 +1,18 @@
 Package: nsd
-Version: 4.14.2~buster
+Version: 4.15.2~buster
 Architecture: amd64
 Maintainer: nsd packagers <nsd@packages.debian.org>
-Installed-Size: 5861
+Installed-Size: 5964
 Pre-Depends: init-system-helpers (>= 1.54~)
 Depends: adduser, openssl, libc6 (>= 2.27), libevent-2.1-6 (>= 2.1.8-stable), libfstrm0 (>= 0.4.0), libprotobuf-c1 (>= 1.0.1), libssl1.1 (>= 1.1.0), libsystemd0
 Homepage: https://www.nlnetlabs.nl/projects/nsd/about/
 Priority: optional
 Section: net
-Filename: pool/main/n/nsd/nsd_4.14.2~buster_amd64.deb
-Size: 843416
-SHA256: 0a7e6a6379a08d766c6e480a40737092b4d5f6bd56166bc6b04ef1cc97fa7b42
-SHA1: 33d99a2d026fd6928be6ac968ddd717fd476f368
-MD5sum: 575aa9728fce40f4b95485efbafbc2a5
+Filename: pool/main/n/nsd/nsd_4.15.2~buster_amd64.deb
+Size: 858528
+SHA256: a72ebb2ef795166d798ccd9f5b4b7ecc9447ca941bea2f443bae829f2d28a642
+SHA1: 27c42a8b9ef95745e567330508629ea751c59db8
+MD5sum: 7e5e3b6f4e2dc64b0bd6ca8165b29dae
 Description: authoritative domain name server
  The NLnet Labs Name Server Daemon (NSD) is an authoritative DNS name server.
  It has been developed for operations in environments where speed,
