@@ -1,5 +1,5 @@
 Package: nsd
-Version: 4.15.2~trixie
+Version: 4.15.3~trixie
 Architecture: arm64
 Maintainer: nsd packagers <nsd@packages.debian.org>
 Installed-Size: 3721
@@ -8,11 +8,11 @@ Depends: adduser, openssl, libc6 (>= 2.38), libevent-2.1-7t64 (>= 2.1.8-stable),
 Homepage: https://www.nlnetlabs.nl/projects/nsd/about/
 Priority: optional
 Section: net
-Filename: pool/main/n/nsd/nsd_4.15.2~trixie_arm64.deb
-Size: 674020
-SHA256: 34c95921c315e68e19ef320c647689583465dc78cd061cdd0d108ca2b985eb0a
-SHA1: e0dd3c94116f6a22c4d8aa31a6cd6ca1bf05eba2
-MD5sum: 5d32cac2b3cb4bdaf533b4b39ffdbd87
+Filename: pool/main/n/nsd/nsd_4.15.3~trixie_arm64.deb
+Size: 674716
+SHA256: bcfc2fc8b4f6a7bea58acdedfda6208ad6fa0e5ff71a833b08f1bdff9d89c9af
+SHA1: e1679528932eec3c5066259bcf60e6d85f482d55
+MD5sum: bc162d550ecffe12317b883d264cb9ae
 Description: authoritative domain name server
  The NLnet Labs Name Server Daemon (NSD) is an authoritative DNS name server.
  It has been developed for operations in environments where speed,
